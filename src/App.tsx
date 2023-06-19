@@ -13,25 +13,25 @@ import { Container } from "./Container";
 import { User } from "./state/User";
 
 function App() {
-  const personName={
+  const personName = {
     first: "Rashik",
-    last: "Neupane"
-  }
+    last: "Neupane",
+  };
 
-  const nameList =[
+  const nameList = [
     {
       first: "Sandesh",
-      last: "Bhandari"
+      last: "Bhandari",
     },
     {
       first: "Sagar",
-      last: "Bhandari"
+      last: "Bhandari",
     },
     {
       first: "Sudip",
-      last: "Bhandari"
+      last: "Bhandari",
     },
-  ]
+  ];
   return (
     <div className="App">
       <Greet name="Rashik" messageCount={12} isLoggedIn={true} />{" "}
